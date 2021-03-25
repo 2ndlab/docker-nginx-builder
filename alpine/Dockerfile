@@ -25,4 +25,4 @@ RUN \
         && CONFARGS=$(nginx -V 2>&1 | sed -n -e 's/^.*arguments: //p') \
         CONFARGS=${CONFARGS/-Os -fomit-frame-pointer -g/-Os} \
         && export CONFARGS=$CONFARGS; \
-        && echo $CONFARGS
+        echo $CONFARGS
