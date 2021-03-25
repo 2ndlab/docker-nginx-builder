@@ -1,2 +1,3 @@
 # docker-nginx-builder
-Nginx builder for GitHub Packages.
+
+Nginx builder for GitHub Actions.
